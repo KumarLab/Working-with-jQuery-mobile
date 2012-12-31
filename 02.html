@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Example Page/02</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css"/>
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script>
+  $(document).on('mobileinit',function(){
+		$.mobile.ignoreContentEnabled = true;
+	});
+</script>
+<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+</head>
+
+<body>
+<div data-enhance="false" data-role="page" id="ignore">
+  <div data-role="header">
+        <h1>KumarLab</h1>
+  </div>
+  <div data-role="content">
+        <ul data-role="listview">
+        <li>Apple</li>
+        <li>Microsoft</li>
+    </ul>
+    <p>This will show you how to stop JQM to load CSS.</p>
+    <p>Written by <a href="http://kumarlab.org/">Prabhat Kumar</a></p>
+    <time>01:40 PM 12/31/2012</time>
+  </div>
+  <div data-role="footer" data-position="fixed">
+        <h6>Copyright © 2012. KumarLab. All Rights Reserved.</h6>
+  </div>
+</div>
+</body>
+</html>
